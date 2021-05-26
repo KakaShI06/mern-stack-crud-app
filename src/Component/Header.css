@@ -1,0 +1,8 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}

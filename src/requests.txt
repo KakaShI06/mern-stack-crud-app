@@ -1,0 +1,17 @@
+const url = "https://mern-stck-backend.herokuapp.com/users";
+
+axios.post('https://mern-stck-backend.herokuapp.com/users'
+
+ axios.get('https://mern-stck-backend.herokuapp.com/users')
+
+ const url = 'https://mern-stck-backend.herokuapp.com/users/' + String(e);
+
+
+  var url = 'https://mern-stck-backend.herokuapp.com/users/' + String(this.state.editId);
+
+
+        axios.put(url , {
+          name : this.state.name,
+          age : this.state.age,
+          email : this.state.email
+        })

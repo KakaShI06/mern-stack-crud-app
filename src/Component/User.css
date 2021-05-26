@@ -1,0 +1,64 @@
+.user__body > h2 {
+  text-align: center;
+}
+
+.link {
+  margin-left: 70px;
+}
+
+table {
+  position: sticky;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  height: fit-content;
+  max-height: 70vh;
+  overflow-y: scroll;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-align: left;
+  border-spacing: 0;
+  border-radius: 5px;
+}
+
+tbody {
+  width: 100%;
+}
+
+.user__expandingWindow {
+  width: 100% !important;
+}
+
+.user__expandingWindow > button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: rgb(236, 60, 60);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+th {
+  position: sticky;
+  top: 40;
+  background-color: #311b92;
+  padding: 10px;
+}
+
+tr {
+  margin: 20px;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: rgb(136, 61, 235);
+}
+
+td {
+  padding: 10px;
+}
